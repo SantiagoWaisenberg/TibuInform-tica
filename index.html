@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>Río Uruguay Viajes</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
+				<img src="pictures/logoRioUruguayViajes.jpg" alt="" class="logo"></a></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+				<ul class='botonera'>
+					<li><a href="#nosotros" data-ancla="Nosotros">Quienes somos</a></li>
+					<li><a href="#servicios" data-ancla="Servicios">Productos</a></li>
+					<li><a href="#contacto" data-ancla="Contacto">Contacto</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>Río Uruguay Viajes</h1> 
+			<h4>Somos una agencia de viajes dedicada a ofrecer la mejor experiancia a sus pasajeros al mejor precio</h4>
+<a  href="https://goo.gl/maps/8oEYGwj4HskvbWNz7" class="btn btn-primary orange">NOS PODÉS ENCONTRAR AQUÍ</a>
+
+
+		</div>
+</div>
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">
+		<h1>Sobre nosotros</h1>
+		<p>Río Uruguay Viajes es una agencia ubicada en la ciudad de Concepción del Uruguay, provincia de Entre Ríos que se caracteriza por la transparencia de su operatoria. Opera en turismo nacional e internacional, en bus y avión
+
+</p>
+	</div>
+</div>
+
+<!--
+<div class="container servicios" id="servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Nuestros Servicios Locos</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/001-electric-guitar-1.svg" alt="">
+			<h3>Extremo</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/002-electric-guitar.svg" alt="">
+			<h3>Satanicos</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/003-maloik.svg" alt="">
+			<h3>Metal Loco</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/004-rock-symbol-of-a-hand.svg" alt="">
+			<h3>Rock Duro</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+	</div>
+	
+</div>
+-->
+<footer>
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>CONTACTO</h1><br><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a href="swaisenberg@yahoo.com.ar"><img src="images/001-mail.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a href="https://www.facebook.com/R%C3%ADo-Uruguay-Viajes-EVT-Leg16560-547922558742982/"  target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/riouruguayviajes/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>
