@@ -1,5 +1,5 @@
 body{
-	background: #eeeeee;
+	background: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -14,11 +14,11 @@ body{
 	font-size: 20px;
 }
 .botonera li a{
-	color: #009ce4;
+	color: rgb(0, 0, 0);
 
 }
 .botonera li a:hover{
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
@@ -33,9 +33,9 @@ header{
 }
 
 .principal{
-	background: rgb(4, 21, 175);
+	background: rgb(0, 0, 0);
 	height: 90vh;
-	background: url(../pictures/frenteRioUruguayViajes.jpg)no-repeat center center fixed; 
+	background: url(../pictures/FondoMar.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,15 +55,19 @@ header{
 .cta{
 	text-align: center;
 }
+
 h1{
 	font-weight: 700;
 	font-size: 50px;
-	color: rgba(255,255,255,.7);
+	color: rgb(0, 0, 0);
+}
+#tituloo{
+	color: rgb(255, 255, 255);
 }
 
 .orange{
 
-	background: #009ce4;
+	background: #757575;
 }
 
 .nosotros{
@@ -106,7 +110,7 @@ h1{
 }
 
 footer{
-	background: #009ce4;
+	background: #757575;
 	height: 50vh;
 	padding-top: 30px;
 }
@@ -116,7 +120,7 @@ footer h1{
 }
 
 #home {
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 .col-xs-4{
 	text-align: center;
