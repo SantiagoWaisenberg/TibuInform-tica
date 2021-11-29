@@ -35,7 +35,7 @@ header{
 .principal{
 	background: rgb(0, 0, 0);
 	height: 90vh;
-	background: url(../pictures/WallpaperTeclado.jfif)no-repeat center center fixed; 
+	background: url(../pictures/WallpaperMarPágina.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,6 +78,12 @@ h1{
 }
 .nosotros h1{
 	font-weight: 100;
+	height: 10vh;
+	background: url(../pictures/WallpaperElectronica.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .servicios{
 	text-align: center;
@@ -119,7 +125,7 @@ footer h1{
 	font-weight: 100;
 	background: rgb(0, 0, 0);
 	height: 10vh;
-	background: url(../pictures/Electronica.jpg)no-repeat center center fixed; 
+	background: url(../pictures/WallpaperTeclado.jfif)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -128,6 +134,7 @@ footer h1{
 
 #home {
 	color: rgb(255, 255, 255);
+	-webkit-text-stroke: 0px rgb(0, 0, 0);
 }
 .col-xs-4{
 	text-align: center;
