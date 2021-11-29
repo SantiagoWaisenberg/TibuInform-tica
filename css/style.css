@@ -35,7 +35,7 @@ header{
 .principal{
 	background: rgb(0, 0, 0);
 	height: 90vh;
-	background: url(../pictures/FondoMar.jpg)no-repeat center center fixed; 
+	background: url(../pictures/WallpaperMar.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -59,7 +59,7 @@ header{
 h1{
 	font-weight: 700;
 	font-size: 50px;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 #tituloo{
 	color: rgb(255, 255, 255);
@@ -117,10 +117,17 @@ footer{
 footer h1{
 	text-align: center;
 	font-weight: 100;
+	background: rgb(0, 0, 0);
+	height: 10vh;
+	background: url(../pictures/WallpaperMar.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #home {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 .col-xs-4{
 	text-align: center;
