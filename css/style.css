@@ -42,7 +42,6 @@ header{
   background-size: cover;
 }
 
-
 .vertical-centered-text {
   -ms-display: flex;
   display: flex;
@@ -70,6 +69,11 @@ h1{
 	background: #757575;
 }
 
+.somos{
+	color:rgb(255, 255, 255)
+
+}
+
 .nosotros{
 	width: 100%;
 	height: 50vh;
@@ -79,7 +83,7 @@ h1{
 .nosotros h1{
 	font-weight: 100;
 	height: 10vh;
-	background: url(../pictures/WallpaperElectronica.jpg)no-repeat center center fixed; 
+	background: url(../pictures/WallpaperMundoCircuito.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,7 +129,7 @@ footer h1{
 	font-weight: 100;
 	background: rgb(0, 0, 0);
 	height: 10vh;
-	background: url(../pictures/WallpaperTeclado.jfif)no-repeat center center fixed; 
+	background: url(../pictures/WallpaperElectronica.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
